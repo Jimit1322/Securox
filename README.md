@@ -1,12 +1,7 @@
-# React + Vite
+Engineered a full-stack password management system using React.js, Tailwind CSS, Express.js, and MongoDB for secure, persistent storage of user credentials.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designed and implemented RESTful API endpoints in Express.js with asynchronous CRUD operations, and validated API responses using Postman.
 
-Currently, two official plugins are available:
+Leveraged MongoDB as a NoSQL backend to persist sensitive data with schema modeling via Mongoose, ensuring scalability and efficient data querying.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Utilized React hooks (useState, useEffect) for state management, implemented input validation, conditional rendering (e.g., show/hide passwords), and responsive UI components with Tailwind CSS.
